@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="left">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span>lamasocial</span>
+          <span>Chatverse</span>
         </Link>
         <HomeOutlinedIcon />
         {darkMode ? (
@@ -33,7 +33,17 @@ const Navbar = () => {
           <SearchOutlinedIcon />
           <input type="text" placeholder="Search..." />
         </div>
+      
+      <div className="premium-text">
+      <span> Join us!</span>
       </div>
+      <Link to="http://localhost/add/premium">
+          <button type="button" className="btn btn-outline-primary premium">
+            Premium
+          </button>
+        </Link>
+</div>
+     
       <div className="right">
         <PersonOutlinedIcon />
         <EmailOutlinedIcon />
@@ -45,8 +55,11 @@ const Navbar = () => {
           />
           <span>{currentUser.name}</span>
         </div>
+        <Link to="/logout" style={{ textDecoration: "none" }}>
+          <span>logout</span>
+        </Link>
       </div>
-    </div>
+    </div >
   );
 };
 

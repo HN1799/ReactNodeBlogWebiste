@@ -32,11 +32,9 @@ const Register = () => {
     <div className="register">
       <div className="card">
         <div className="left">
-          <h1>ChatVerse.</h1>
+          <h1>ChatVerse</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum,
-            alias totam numquam ipsa exercitationem dignissimos, error nam,
-            consequatur.
+          Welcome to the Chatverse where we explore travel, life experiences, all things nostalgic, what's trendy and so much more. Let's get chatting!
           </p>
           <span>Do you have an account?</span>
           <Link to="/login">
